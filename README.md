@@ -1,36 +1,36 @@
+# 👋 Olá! Eu sou Isabella Curci
 
-# Instruções
+![Foto da Isabella](./Sprint%201/Evidencias/isabella.png)
 
-Neste arquivo você fará a sua apresentação, assim como a organização geral das suas entregas ao longo das Sprints. Esperamos que haja, minimamente:
- 
-- Uma seção de apresentação, com foto, informações como cidade de residência, instituição de ensino, curso e semestre atual, experiências na área de tecnologia (se houver), hobbies e outras informações que você julgar importante para os monitores.
+---
 
-- De forma opcional, adicione uma foto ao seu perfil do **GitHub**, pois utilizamos tal informação para facilitar a sua identificação ao longo do processo. Lembre-se que a informação é pública, tal qual você pode testar no exemplo do repositório da [
-The Apache Software Foundation](https://github.com/apache.png?size=250).
+📍 **Localização:** Dois Vizinhos, PR  
+🎓 **Curso:** Engenharia de Software - UTFPR (7º período)  
+🎂 **Idade:** 21 anos
+
+---
+
+### 💼 Experiência & Interesses
+
+| Tecnologias | Experiência          | Interesses                      |
+|-------------|---------------------|--------------------------------|
+| ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | Analista de Dados| Dados 📊, IA 🤖, Machine Learning 🧠 |
+| ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sql&logoColor=white)         |                         |                                |
+
+---
+
+### 🎯 Meus Hobbies
+
+| 🎮 Jogos FPS | 📕 Leitura | 🏊‍♀️ Natação | 🏋️‍♀️ Musculação | 🎵 Música |
+|--------------|------------|--------------|------------------|-----------|
 
 
-Veja um modelo de estrutura básica a seguir:
 
-___
+### 🚀 Sprints
 
-## Apresentação
-
-Olá, me chamo Isabella Curci, tenho 21 anos, moro em Dois Vizinhos, PR. Atualmente curso engenharia de software  na UTFPR e estou no sétimo período.
-Tenho experiência com SQL e Python e já trabalhei como analista de dados por 1 ano. Sou muito interessada pela á    rea de dados, IA e machine learning. Tenho alguns hobbies, como, jogos de fps, leitura, natação e musculação, eu também amo música. 
-
-![Minha foto](./Sprint%201/Evidencias/isabella.png)              
-
-## Sprints  
-
-1. [Sprint 1](/Sprint%201/README.md)
-2. [Sprint 2](/Sprint%202/README.md)
-3. [Sprint 3](/Sprint%203/README.md)
+1. [Sprint 1](/Sprint%201/README.md)  
+2. [Sprint 2](/Sprint%202/README.md)  
+3. [Sprint 3](/Sprint%203/README.md)  
 4. ...
 
-___
-
-
-# Dicas
-
-- [Mark Down - Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Github - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+---
