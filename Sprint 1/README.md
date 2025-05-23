@@ -14,14 +14,26 @@ Este arquivo será o relato da sua entrega. Neste arquivo você fará a organiza
 
 # Exercícios
 
-
 1. ...
 [Resposta Ex1.](./Exercicios/ex1.sql)
 
-
 2. ...
-[Resposta Ex2.](./Exercicios/ex2.py)
+[Resposta Ex2.](./Exercicios/ex2.sql)
 
+3. ...
+[Resposta Ex2.](./Exercicios/ex3.sql)
+
+4. ...
+[Resposta Ex2.](./Exercicios/ex4.sql)
+
+5. ...
+[Resposta Ex2.](./Exercicios/ex5.sql)
+
+6. ...
+[Resposta Ex2.](./Exercicios/ex6.sql)
+
+7. ...
+[Resposta Ex2.](./Exercicios/ex7.sql)
 
 
 # Evidências
