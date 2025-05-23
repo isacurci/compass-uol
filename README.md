@@ -1,6 +1,6 @@
 # 👋 Olá! Eu sou Isabella Curci
 
-![Foto da Isabella](./Sprint%201/Evidencias/isabella.png)
+![Foto da Isabella](isabella.png)
 
 ---
 
