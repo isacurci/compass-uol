@@ -1,6 +1,6 @@
 # 👋 Olá! Eu sou Isabella Curci
 
-![Foto da Isabella](isabella.png)
+<img src="isabella.png" alt="Foto da Isabella" width="400">
 
 ---
 
@@ -12,12 +12,11 @@
 
 ### 💼 Experiência & Interesses
 
-| Tecnologias | Experiência          | Interesses                      |
-|-------------|---------------------|--------------------------------|
-| ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | Analista de Dados| Dados 📊, IA 🤖, Machine Learning 🧠 |
-| ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sql&logoColor=white)         |                         |                                |
+| Tecnologias | Experiência       | Interesses                             |
+|-------------|------------------|----------------------------------------|
+| 🐍 **Python** | Analista de Dados| Dados 📊, IA 🤖, Machine Learning 🧠     |
+| 💾 **SQL**    |     DBA             |                           |  
 
----
 
 ### 🎯 Meus Hobbies
 
