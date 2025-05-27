@@ -8,7 +8,7 @@ Este arquivo será o relato da sua entrega. Neste arquivo você fará a organiza
 
 # Resumo
 
-**Sql:** Aprendi isso, isso e mais aquilo.
+**Sql:** Durante o curso de SQL para análise de dados pude relembrar alguns conceitos e conhecer alguns outros novos para o tratamento de dados, por exemplo, o date_trunc, que não era de meu conhecimento. Relembrei como fazer subqueries, queries comuns com operadores lógicos, bem como todos os outros operadores (aritméticos e comparação) inserir dados, atualizá-los e deletá-los. Também o uso de funções agregadas como COUNT(), SUM (), estudei também os JOINS, como unir tabelas com o UNION e também um dashboard de vendas onde usei o excel para geral gráficos com base nas queries. Consegui entender melhor o uso das funções na prática e o uso delas, como o REPLACE().
 
 **Modelagem Relacional e Dimensional:** Pude entender como funciona isso e aquilo.
 
