@@ -1,29 +1,19 @@
 # 👋 Olá! Eu sou Isabella Curci
 
-<img src="isabella.png" alt="Foto da Isabella" width="400">
 
----
+## Sobre mim
+
+<img src="Imagem/isabella.png" alt="Foto da Isabella" width="300">
 
 📍 **Localização:** Dois Vizinhos, PR  
-🎓 **Curso:** Engenharia de Software - UTFPR (7º período)  
-🎂 **Idade:** 21 anos
+🎓 **Curso:** Engenharia de Software - UTFPR  
+📚 **Semestre Atual:** 7º período  
+🎂 **Idade:** 21 anos  
+💼 **Experiência:** Analista de Conversão de Dados, DBA  
+🧠 **Conhecimentos:** Python, SQL, Dados, IA, Machine Learning  
+🎯 **Hobbies:** Jogos FPS, Leitura, Natação 
 
 ---
-
-### 💼 Experiência & Interesses
-
-| Tecnologias | Experiência       | Interesses                             |
-|-------------|------------------|----------------------------------------|
-| 🐍 **Python** | Analista de Dados| Dados 📊, IA 🤖, Machine Learning 🧠     |
-| 💾 **SQL**    |     DBA             |                           |  
-
-
-### 🎯 Meus Hobbies
-
-| 🎮 Jogos FPS | 📕 Leitura | 🏊‍♀️ Natação | 🏋️‍♀️ Musculação | 🎵 Música |
-|--------------|------------|--------------|------------------|-----------|
-
-
 
 ### 🚀 Sprints
 
