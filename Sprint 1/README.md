@@ -11,7 +11,7 @@ Aprendi também sobre Extração, Transformação e Carregamento de Dados (ETL) 
 
 # 📊 Exercícios de SQL
 
-Este repositório contém as respostas dos exercícios em SQL, organizadas por secões. Para alguns exercícios, há também uma imagem de evidência com o resultado da consulta no Dbeaver juntamente com a resposta na plataforma Air Learning.
+Este repositório contém as respostas dos exercícios em SQL, organizadas por seções. Para alguns exercícios, há também uma imagem de evidência com o resultado da consulta no Dbeaver juntamente com a resposta na plataforma Air Learning.
 
 # Lista de Exercícios
 
@@ -50,6 +50,14 @@ Este repositório contém as respostas dos exercícios em SQL, organizadas por s
 
 16. [Exercício 16](./Exercicios/Secao-04-Loja/ex16.sql)  
     ![Evidência Ex16](./Exercicios/Evidencias-Exercicios/ex16.png) 
+
+## Seção 06 – CSV🧾 
+
+1. [Exercício 1](./Exercicios/Secao-06-CSV/livros.csv)  
+   ![Evidência Ex1](./Exercicios/Evidencias-Exercicios/livros-csv.png)  
+
+2. [Exercício 2](./Exercicios/Secao-06-CSV/editora.csv)  
+   ![Evidência Ex2](./Exercicios/Evidencias-Exercicios/editora-csv.png)  
 
 # Evidências
 
