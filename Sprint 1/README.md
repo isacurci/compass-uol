@@ -1,14 +1,11 @@
-# Instruções
 
-Este arquivo será o relato da sua entrega. Neste arquivo você fará a organização geral ao longo da Sprint. Esperamos que haja, minimamente:
-
-- Uma ou mais seções para descrever o que estiver aprendendo (resumo), de maneira estruturada.
-
-- Breve conteúdo de cada pasta relacionada a sprint.
 
 # Resumo
 
-**Sql:** Durante o curso de SQL para análise de dados pude relembrar alguns conceitos e conhecer alguns outros novos para o tratamento de dados, por exemplo, o date_trunc, que não era de meu conhecimento. Relembrei como fazer subqueries, queries comuns com operadores lógicos, bem como todos os outros operadores (aritméticos e comparação) inserir dados, atualizá-los e deletá-los. Também o uso de funções agregadas como COUNT(), SUM (), estudei também os JOINS, como unir tabelas com o UNION e também um dashboard de vendas onde usei o excel para geral gráficos com base nas queries. Consegui entender melhor o uso das funções na prática e o uso delas, como o REPLACE().
+**Sql:** Durante o curso de SQL para análise de dados, pude relembrar alguns conceitos e me aprofundar em outros novos para o tratamento de dados. Entre os novos aprendizados, destaco o uso da função date_trunc, que até então não conhecia. Relembrei a execução e criação de queries simples e complexas, utilizando os operadores lógicos, o uso de subqueries e funções agregadas como COUNT(), SUM (), entre outras. Também relembrei como manipular os dados, inserir, atualizá-los e deletá-los. Estudei e apliquei os JOINS e o UNION para combinar tabelas. No curso, desenvolvi um dashboard de vendas, onde utilizei o excel para geral gráficos com base nas queries desenvolvidas. Consegui entender melhor o uso das funções de transformação de dados na prática e seu uso, como o REPLACE().
+
+**Data e Analytics:** Durante o curso de Data e Analytics, aprendi alguns conceitos em Big Data e suas principais características, conceitos em Ciência de Dados, além dos papéis e perfis dos profissionais da área. Estudei também os tipos de dados (estruturados, semi estruturados e não estruturados) e de banco de dados (NoSQL e RDBMS). Pude me aprofundar também alguns fundamentos sobre Business Inteligence, técnicas de processamento de dados (Batch e Stream), adquiri uma base em Machine Learning, seus algoritmos e quando são utilizados, assim como outros conceitos mais específicos em ML como Deep Learning e exemplos práticos no dia a dia. Estudei um pouco sobre Dashboards e porque são importantes para o gerenciamento de uma empresa. Aprendi também alguns fundamentos básicos em mineração de dados, IoT, o papel das APIs na integração de um sistema, métodos de conexão a banco de dados e sua história, além de compreender um pouco sobre as interfaces de conexão entre softwares e bancos de dados, ODBC e JDBC, e suas diferenças.
+
 
 **Modelagem Relacional e Dimensional:** Pude entender como funciona isso e aquilo.
 
