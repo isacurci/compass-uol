@@ -5,7 +5,6 @@
 
 */
 
-
 SELECT 
     nome
 FROM 

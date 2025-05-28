@@ -4,6 +4,7 @@
     O resultado deve conter apenas as colunas codautor, nome, quantidade_publicacoes.
 
 */
+
 SELECT 
     a.codAutor, 
     a.nome, 

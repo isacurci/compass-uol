@@ -12,43 +12,39 @@ Este arquivo será o relato da sua entrega. Neste arquivo você fará a organiza
 
 **Modelagem Relacional e Dimensional:** Pude entender como funciona isso e aquilo.
 
-# Exercícios
+# 📘 Exercícios de SQL
 
-1. ...
-[Resposta Ex1.](./Exercicios/ex1.sql)
+Este repositório contém as respostas dos exercícios em SQL, organizadas por arquivo. Para alguns exercícios, há também uma imagem de evidência com o resultado da consulta.
 
-2. ...
-[Resposta Ex2.](./Exercicios/ex2.sql)
+## 📂 Lista de Exercícios
 
-3. ...
-[Resposta Ex2.](./Exercicios/ex3.sql)
-
-4. ...
-[Resposta Ex2.](./Exercicios/ex4.sql)
-
-5. ...
-[Resposta Ex2.](./Exercicios/ex5.sql)
-
-6. ...
-[Resposta Ex2.](./Exercicios/ex6.sql)
-
-7. ...
-[Resposta Ex2.](./Exercicios/ex7.sql)
+1. [Exercício 1](./Exercicios/ex1.sql)  
+2. [Exercício 2](./Exercicios/ex2.sql)  
+3. [Exercício 3](./Exercicios/ex3.sql)  
+4. [Exercício 4](./Exercicios/ex4.sql)  
+5. [Exercício 5](./Exercicios/ex5.sql)  
+6. [Exercício 6](./Exercicios/ex6.sql)  
+7. [Exercício 7](./Exercicios/ex7.sql)  
+8. [Exercício 8](./Exercicios/ex8.sql)  
+9. [Exercício 9](./Exercicios/ex9.sql)  
+   ![Evidência Ex9](./Exercicios/Evidencias-Exercicios/ex9.png)  
+10. [Exercício 10](./Exercicios/ex10.sql)  
+11. [Exercício 11](./Exercicios/ex11.sql)  
+12. [Exercício 12](./Exercicios/ex12.sql)  
+    ![Evidência Ex12](./Exercicios/Evidencias-Exercicios/ex12.png)  
+13. [Exercício 13](./Exercicios/ex13.sql)  
+    ![Evidência Ex13](./Exercicios/Evidencias-Exercicios/ex13.png)  
+14. [Exercício 14](./Exercicios/ex14.sql)  
+    ![Evidência Ex14](./Exercicios/Evidencias-Exercicios/ex14.png)  
+15. [Exercício 15](./Exercicios/ex15.sql)  
+    ![Evidência Ex15](./Exercicios/Evidencias-Exercicios/ex15.png)  
+16. [Exercício 16](./Exercicios/ex16.sql)  
+    ![Evidência Ex16](./Exercicios/Evidencias-Exercicios/ex16.png)
 
 
 # Evidências
 
 
 Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-
-![Evidencia 1](./Evidencias/sample.webp)
-
-
-# Certificados
-
-
-Certificado do Curso ABC
-
-![Curso ABC](./Certificados/sample.png)
 
 
