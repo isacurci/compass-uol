@@ -17,7 +17,7 @@
 
     ![amostra](../Evidencias/desafio3.png)
 
-    Logo após rodei os scripts que foram criados com a ajuda do MySQL Workbench e criei as tabelas, evidenciado em:
+    Logo após rodei os scripts atualizados que foram criados com a ajuda do MySQL Workbench e criei as tabelas, evidenciado em:
 
     ![amostra](../Evidencias/desafio4.png)
 
