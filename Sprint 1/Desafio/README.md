@@ -1,5 +1,6 @@
 # Etapas
 
+# Primeira Etapa
 
 1. ... [Etapa I](etapa-1)
 
@@ -21,12 +22,14 @@
 
     ![amostra](../Evidencias/desafio4.png)
 
-    ## 📦 Resultado Final - Relacional
+## 📦 Resultado Final - Relacional
 
-    O resultado final do da etapa 1 do desafio (modelagem relacional) está disponível na pasta [etapa-1](../Desafio/etapa-1).
+O resultado final do da etapa 1 do desafio (modelagem relacional) juntamente com o código de criação das tabelas está disponível na pasta [etapa-1](../Desafio/etapa-1).
 
-    ![amostra](../Desafio/etapa-1/modelo-relacional.png)
+![amostra](../Desafio/etapa-1/modelo-relacional.png)
 
+---
+# Segunda etapa
 
 2. ... [Etapa 2](etapa-2)
 
@@ -34,7 +37,7 @@
 
     ![amostra](../Evidencias/desafio5.png)
 
-    Após isso, tive que fazer os scritps de criação das VIEWS, criei as views e conferi se tudo estava correto. Aqui, como não tive o auxilio na criação das queries, essa parte de criação da view dim_tempo acabou tomando um pouco mais do meu tempo, por causa da lógica.
+    Após isso, tive que fazer os scritps de criação das VIEWS, criei as views e conferi se tudo estava correto. Aqui, como não tive o auxilio na criação das queries, essa parte de criação da view Dim_Tempo acabou tomando um pouco mais do meu tempo, por causa da lógica.
 
 ```
 -- View de dimensão: Tempo (datas de locação e entrega)
@@ -66,6 +69,6 @@ Com a criação das views, encerrei o modelo dimensional com êxito.
     
 ## 📦 Resultado Final - Dimensional
 
-O resultado final do desafio etapa 2 (modelagem dimensional)  está disponível na pasta [etapa-2](../Desafio/etapa-2).
+O resultado final do desafio etapa 2 (modelagem dimensional) e código da criação das views está disponível na pasta [etapa-2](../Desafio/etapa-2).
 
 ![amostra](../Desafio/etapa-2/modelo-dimensional.png)
