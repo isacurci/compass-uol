@@ -1,14 +1,3 @@
-# Instruções
-
-Neste arquivo você apresentará suas entregas referentes ao desafio. Utilize o diretório "Desafio" para organizar seus artefatos e este README.md para fazer referência aos arquivos de código-fonte e demais entregáveis solicitados.
-
-Esperamos que haja, minimamente:
-
-- Passo a passo para obter o resultado entregue do desafio.
-- Trechos de códigos e suas explicações.
-- Relacionamento com a pasta de evidências (imagens).
-
-
 # Etapas
 
 
