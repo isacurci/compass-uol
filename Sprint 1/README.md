@@ -57,11 +57,5 @@ Este repositório contém as respostas dos exercícios em SQL, organizadas por s
    ![Evidência Ex1](./Exercicios/Evidencias-Exercicios/livros-csv.png)  
 
 2. [Exercício 2](./Exercicios/Secao-06-CSV/editora.csv)  
-   ![Evidência Ex2](./Exercicios/Evidencias-Exercicios/editora-csv.png)  
-
-# Evidências
-
-
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-
+   ![Evidência Ex2](./Exercicios/Evidencias-Exercicios/editora-csv.png)
 
