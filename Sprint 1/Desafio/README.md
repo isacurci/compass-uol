@@ -28,13 +28,13 @@ Esperamos que haja, minimamente:
 
     ![amostra](../Evidencias/desafio3.png)
 
-    Logo após rodei os scrips e criei as tabelas, evidenciado em:
+    Logo após rodei os scripts que foram criados com a ajuda do MySQL Workbench e criei as tabelas, evidenciado em:
 
     ![amostra](../Evidencias/desafio4.png)
 
     ## 📦 Resultado Final - Relacional
 
-    O resultado final do desafio (modelagem relacional e dimensional, incluindo as views criadas) está disponível na pasta [etapa-1](../Desafio/etapa-1).
+    O resultado final do da etapa 1 do desafio (modelagem relacional) está disponível na pasta [etapa-1](../Desafio/etapa-1).
 
     ![amostra](../Desafio/etapa-1/modelo-relacional.png)
 
@@ -45,6 +45,38 @@ Esperamos que haja, minimamente:
 
     ![amostra](../Evidencias/desafio5.png)
 
-    Após isso, tive que fazer os scritps de criação das VIEWS, criei as Views e conferi se tudo estava correto.
+    Após isso, tive que fazer os scritps de criação das VIEWS, criei as views e conferi se tudo estava correto. Aqui, como não tive o auxilio na criação das queries, essa parte de criação da view dim_tempo acabou tomando um pouco mais do meu tempo, por causa da lógica.
 
-    ![amostra](../Evidencias/desafio6.png)
+```
+-- View de dimensão: Tempo (datas de locação e entrega)
+CREATE VIEW Dim_Tempo AS
+SELECT DISTINCT 
+    CAST(strftime('%Y%m%d%H%M', dataLocacao || horaLocacao) AS INTEGER) AS idTempo,
+    dataLocacao AS data,
+    horaLocacao AS hora,
+    strftime('%Y', dataLocacao) AS ano,
+    strftime('%m', dataLocacao) AS mes,
+    strftime('%d', dataLocacao) AS dia
+FROM tb_locacao
+
+UNION
+
+SELECT DISTINCT 
+    CAST(strftime('%Y%m%d%H%M', dataEntrega || horaEntrega) AS INTEGER) AS idTempo,
+    dataEntrega AS data,
+    horaEntrega AS hora,
+    strftime('%Y', dataEntrega) AS ano,
+    strftime('%m', dataEntrega) AS mes,
+    strftime('%d', dataEntrega) AS dia
+FROM tb_locacao;
+```
+
+![amostra](../Evidencias/desafio6.png)
+
+Com a criação das views, encerrei o modelo dimensional com êxito.
+    
+## 📦 Resultado Final - Dimensional
+
+O resultado final do desafio etapa 2 (modelagem dimensional)  está disponível na pasta [etapa-2](../Desafio/etapa-2).
+
+![amostra](../Desafio/etapa-2/modelo-dimensional.png)
