@@ -64,7 +64,7 @@ SELECT DISTINCT
 FROM tb_locacao;
 
 -- View de fato: Locação
-drop view Fato_Locacao 
+
 CREATE VIEW Fato_Locacao AS
 SELECT 
     idLocacao,
@@ -73,5 +73,6 @@ SELECT
     idVendedor,
     dataLocacao,
     qtdDiaria,
-    vlrDiaria
+    vlrDiaria,
+    horaLocacao
 FROM tb_locacao;
