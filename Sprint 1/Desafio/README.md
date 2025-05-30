@@ -24,9 +24,11 @@
 
 ## 📦 Resultado Final - Relacional
 
-O resultado final do da etapa 1 do desafio (modelagem relacional) juntamente com o código de criação das tabelas está disponível na pasta [etapa-1](../Desafio/etapa-1).
+O resultado final da etapa 1 do desafio (modelagem relacional), incluindo o código de criação das tabelas, está disponível na pasta [etapa-1](../Desafio/etapa-1).  
+O diagrama relacional utilizado pode ser visualizado abaixo e também acessado diretamente [clicando aqui](../Evidencias/modelo-relacional.png):
 
-![amostra](../Evidencias/modelo-relacional.png)
+![Diagrama Modelo Relacional](../Evidencias/modelo-relacional.png)
+
 ---
 # Segunda etapa
 
@@ -89,6 +91,7 @@ Com a criação das views, encerrei o modelo dimensional com êxito.
     
 ## 📦 Resultado Final - Dimensional
 
-O resultado final do desafio etapa 2 (modelagem dimensional) e código da criação das views está disponível na pasta [etapa-2](../Desafio/etapa-2).
+O resultado final do desafio etapa 2 (modelagem dimensional), bem como o código de criação das views, está disponível na pasta [etapa-2](../Desafio/etapa-2).  
+O diagrama pode ser visualizado abaixo e também acessado diretamente [neste link](../Evidencias/modelo-dimensional.png):
 
-![amostra](../Evidencias/modelo-dimensional.png)
+![Diagrama Modelo Dimensional](../Evidencias/modelo-dimensional.png)
