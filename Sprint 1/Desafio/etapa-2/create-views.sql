@@ -31,24 +31,36 @@ FROM tb_locacao;
 
 -- View de dimensão: Tempo (datas de locação e entrega)
 CREATE VIEW Dim_Tempo AS
-SELECT DISTINCT 
-    CAST(strftime('%Y%m%d%H%M', dataLocacao || horaLocacao) AS INTEGER) AS idTempo,
-    dataLocacao AS data,
+SELECT DISTINCT
+    printf('%04d-%02d-%02d',
+        substr(REPLACE(dataLocacao, '.', ''), 1, 4),
+        substr(REPLACE(dataLocacao, '.', ''), 5, 2),
+        substr(REPLACE(dataLocacao, '.', ''), 7, 2)
+    ) AS data,
+
     horaLocacao AS hora,
-    strftime('%Y', dataLocacao) AS ano,
-    strftime('%m', dataLocacao) AS mes,
-    strftime('%d', dataLocacao) AS dia
+
+    substr(REPLACE(dataLocacao, '.', ''), 1, 4) AS ano,
+    substr(REPLACE(dataLocacao, '.', ''), 5, 2) AS mes,
+    substr(REPLACE(dataLocacao, '.', ''), 7, 2) AS dia
+
 FROM tb_locacao
 
 UNION
 
-SELECT DISTINCT 
-    CAST(strftime('%Y%m%d%H%M', dataEntrega || horaEntrega) AS INTEGER) AS idTempo,
-    dataEntrega AS data,
+SELECT DISTINCT
+    printf('%04d-%02d-%02d',
+        substr(REPLACE(dataEntrega, '.', ''), 1, 4),
+        substr(REPLACE(dataEntrega, '.', ''), 5, 2),
+        substr(REPLACE(dataEntrega, '.', ''), 7, 2)
+    ) AS data,
+
     horaEntrega AS hora,
-    strftime('%Y', dataEntrega) AS ano,
-    strftime('%m', dataEntrega) AS mes,
-    strftime('%d', dataEntrega) AS dia
+
+    substr(REPLACE(dataEntrega, '.', ''), 1, 4) AS ano,
+    substr(REPLACE(dataEntrega, '.', ''), 5, 2) AS mes,
+    substr(REPLACE(dataEntrega, '.', ''), 7, 2) AS dia
+
 FROM tb_locacao;
 
 -- View de fato: Locação
@@ -59,8 +71,7 @@ SELECT
     idCliente,
     idCarro,
     idVendedor,
-    CAST(strftime('%Y%m%d%H%M', dataLocacao || horaLocacao) AS INTEGER) AS idTempoLocacao,
-    CAST(strftime('%Y%m%d%H%M', dataEntrega || horaEntrega) AS INTEGER) AS idTempoEntrega,
+    dataLocacao,
     qtdDiaria,
     vlrDiaria
 FROM tb_locacao;
