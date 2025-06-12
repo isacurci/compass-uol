@@ -15,7 +15,7 @@ def split_csv_line(line):
             current += char
     parts.append(current.strip())
     return parts
-
+    
 with open("actors.csv", "r", encoding="utf-8") as f:
     lines = f.readlines()
 

@@ -1,7 +1,3 @@
-# Análise de Apps da Google Play Store
-
-Este projeto tem como objetivo realizar uma análise de dados de aplicativos da Google Play Store. Usamos um conjunto de dados no formato `.csv` para extrair informações sobre os aplicativos, como número de instalações, avaliações e preço. O projeto inclui a limpeza dos dados, a remoção de duplicatas e a criação de gráficos para visualizar as informações.
-
 ## Etapas
 
 ### 1. **Carregar o Dataset**
@@ -10,11 +6,11 @@ A primeira etapa do projeto é carregar o dataset. O arquivo `.csv` contém info
 
 ### 2. **Remover Linhas Duplicadas**
 
-Após carregar o dataset, é importante verificar e remover qualquer linha duplicada para garantir que a análise seja precisa.
+Após carregar o dataset, removi as linha duplicadas.
 
 ### 3. **Limpeza de Dados - Installs**
 
-A coluna **`Installs`** contém valores não numéricos, como símbolos de `+` e vírgulas `,`. Esses caracteres devem ser removidos para que possamos realizar análises numéricas.
+A coluna **`Installs`** contém valores não numéricos, como símbolos de `+` e vírgulas `,`. Esses caracteres foram removidos para que possamos realizar análises numéricas.
 
 ### 4. **Análise de Top 5 Apps por Instalações**
 
@@ -30,7 +26,7 @@ Encontrar o aplicativo com o maior preço na Play Store.
 
 ### 7. **Contagem de Apps com a Classificação 'Mature 17+'**
 
-Aqui contamos quantos aplicativos possuem a classificação **'Mature 17+'**.
+Aqui contei quantos aplicativos possuem a classificação **'Mature 17+'**.
 
 ### 8. **Top 10 Apps por Número de Reviews**
 
