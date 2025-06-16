@@ -1,49 +1,77 @@
 ## Etapas
 
-### 1. **Carregar o Dataset**
+### Etapa 1. **Carregar o dataset e remoção das linhas duplicadas**
 
-A primeira etapa do projeto é carregar o dataset. O arquivo `.csv` contém informações sobre os aplicativos, como nome, categoria, classificações, avaliações, e outros dados.
+A primeira etapa do projeto é carregar o dataset. O arquivo `.csv` e visualizar as primeiras linhas para verificar os dados disponíveis.
+Abaixo, como importei e removi as linhas duplicadas.
 
-### 2. **Remover Linhas Duplicadas**
+![amostra](../Evidencias/carregar_dataset.png)
 
-Após carregar o dataset, removi as linha duplicadas.
+Nessa parte fiz alguns testes como visualizar as duplicadas e visualizar sua remoção, como é possível verificar abaixo:
 
-### 3. **Limpeza de Dados - Installs**
+![amostra](../Evidencias/visualizar_duplicadas.png)
+![amostra](../Evidencias/visualizando_remocao.png)
+![amostra](../Evidencias/verificando_removidas.png)
 
-A coluna **`Installs`** contém valores não numéricos, como símbolos de `+` e vírgulas `,`. Esses caracteres foram removidos para que possamos realizar análises numéricas.
+### 2. **Limpeza de Dados - Installs**
 
-### 4. **Análise de Top 5 Apps por Instalações**
+A coluna **`Installs`** contém valores não numéricos, como símbolos de `+` e vírgulas `,`. Esses caracteres foram removidos para que realizar as análises da melhor forma.
 
-Nesta etapa, usamos o método **`nlargest()`** para identificar os 5 aplicativos com o maior número de instalações.
+![amostra](../Evidencias/tratamento_dados.png)
+
+Aqui eu copiei o df, removi os carateres não numéricos usando str.replace() e (regex=True) limpando os valores. Substituindo os vazios por 0 e convertendo para int com astype(int). 
+
+![amostra](../Evidencias/replace_diferente_int.png)
+
+### 3. **Análise de Top 5 Apps por Instalações**
+
+Nesta etapa, usei o método **`nlargest()`** para identificar os 5 aplicativos com o maior número de instalações, essa foi a primeira versão do gráfico que ficou com a visualização comprometida:
+
+![amostra](../Evidencias/primeira_versao_grafico.png)
+
+
+Após os ajustes para melhorar a formatação cheguei ao seguinte resultado: 
+
+![amostra](../Evidencias/grafico_barras.png)
+
 
 ### 5. **Análise de Categorias de Apps**
 
-Geramos um gráfico de pizza para visualizar a distribuição das categorias de aplicativos na Play Store.
+Gerei um gráfico de pizza para visualizar a distribuição das categorias de aplicativos na Play Store aqui usei matplotlib para representar as proporções. Essa foi a primeira versão, de dificil visualização:
+
+![amostra](../Evidencias/grafico_pizza.png)
+
+Após os ajustes para melhorar a visualização trazendo somente as 20 categorias mas frequentes ajustando diversos pontos como: legibilidade, layout e evitar as sobreposicões,  o gráfico final ficou da seguinte maneira:
+
+![amostra](../Evidencias/pizza_ajustado.png)
 
 ### 6. **Encontre o App Mais Caro**
 
-Encontrar o aplicativo com o maior preço na Play Store.
+Aqui, determinei o aplicativo mais caro do dataset, com nome e preço.
+
+![amostra](../Evidencias/app_caro.png)
 
 ### 7. **Contagem de Apps com a Classificação 'Mature 17+'**
 
 Aqui contei quantos aplicativos possuem a classificação **'Mature 17+'**.
 
+![amostra](../Evidencias/app_mature.png)
+
 ### 8. **Top 10 Apps por Número de Reviews**
 
-Selecionamos os 10 aplicativos com mais reviews e geramos um gráfico para visualização.
+Selecionei os 10 aplicativos com mais reviews e gerei um gráfico para visualização seguindo a lógica do gráfico de barras já feito anteriormente.
+
+![amostra](../Evidencias/apps_review.png)
 
 ### 9. **Cálculos sobre o Dataset**
 
-Realizamos alguns cálculos sobre o dataset, como a média de reviews e a média de preços dos aplicativos.
+Realizei alguns cálculos sobre o dataset, como a média de reviews, cálculo em valor e o cálculo em formato de lista, top 5 apps com mais reviews
+
 
 ### 10. **Gráficos de Análise Adicional**
 
-Geramos gráficos adicionais para análise, como o preço médio por categoria e um gráfico de dispersão entre instalações e preço.
-
-#### Preço Médio por Categoria
-
-#### Gráfico de Dispersão - Instalações vs Preço
+Gerei gráficos adicionais para os indicadores da etapa anterior, um gráfico de linhas e outro de ponto.
 
 ## Conclusão
 
-Este projeto fornece uma análise básica da Play Store, incluindo insights sobre a distribuição de categorias, a popularidade dos aplicativos e o preço médio. O uso de gráficos ajuda a visualizar as informações de maneira clara e eficaz.
+Este desafio me proporcionou uma análise detalhada do dataset de aplicativos da Google Play Store, focando na distribuição das categorias, popularidade e preço médio. Aprendi a limpar e preparar os dados usando pandas, além de criar gráficos de diferentes tipos e como melhorá-los com o matplotlib. O desafio foi crucial para o aprimoramento das minhas habilidades em análise e visualização de dados.
