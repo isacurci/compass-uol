@@ -67,7 +67,6 @@ Selecionei os 10 aplicativos com mais reviews e gerei um gráfico para visualiza
 
 Realizei alguns cálculos sobre o dataset, como a média de reviews, cálculo em valor e o cálculo em formato de lista, top 5 apps com mais reviews
 
-
 ### 10. **Gráficos de Análise Adicional**
 
 Gerei gráficos adicionais para os indicadores da etapa anterior, um gráfico de linhas e outro de ponto.
