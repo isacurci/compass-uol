@@ -3,15 +3,9 @@
 ### Etapa 1. **Carregar o dataset e remoção das linhas duplicadas**
 
 A primeira etapa do projeto é carregar o dataset. O arquivo `.csv` e visualizar as primeiras linhas para verificar os dados disponíveis.
-Abaixo, como importei e removi as linhas duplicadas.
+Abaixo, como importei e removi as linhas duplicadas com base na coluna `'App'`.
 
 ![amostra](../Evidencias/carregar_dataset.png)
-
-Nessa parte fiz alguns testes como visualizar as duplicadas e visualizar sua remoção, como é possível verificar abaixo:
-
-![amostra](../Evidencias/visualizar_duplicadas.png)
-![amostra](../Evidencias/visualizando_remocao.png)
-![amostra](../Evidencias/verificando_removidas.png)
 
 ### 2. **Limpeza de Dados - Installs**
 
@@ -47,29 +41,41 @@ Após os ajustes para melhorar a visualização trazendo somente as 20 categoria
 
 ### 6. **Encontre o App Mais Caro**
 
-Aqui, determinei o aplicativo mais caro do dataset, com nome e preço.
+Aqui para determinar o app mais caro converti a coluna 'Price' para valores numéricos, removi o símbolo de moeda e tratei os respectivos erros. Em seguida, ele removi linhas com preços ausentes e printei o nome e o preço do aplicativo mais caro.
 
 ![amostra](../Evidencias/app_caro.png)
 
 ### 7. **Contagem de Apps com a Classificação 'Mature 17+'**
 
-Aqui contei quantos aplicativos possuem a classificação **'Mature 17+'**.
+Com este código, eu filtrei meu df para incluir apenas os apps com classificação Mature 17+ e, em seguida, printei o total desses apps.
 
-![amostra](../Evidencias/app_mature.png)
+![amostra](../Evidencias/mature17.png)
 
 ### 8. **Top 10 Apps por Número de Reviews**
 
-Selecionei os 10 aplicativos com mais reviews e gerei um gráfico para visualização seguindo a lógica do gráfico de barras já feito anteriormente.
+Gerei uma lista ordenada de forma decrescente pelo número de reviews. Convertendo a coluna Reviews para valores numéricos, tratando valores ausentes e ordena os aplicativos por número de reviews de forma decrescente. Em seguida, exibindo os 10 aplicativos com mais reviews, mostrando seu nome e o número de reviews.
 
-![amostra](../Evidencias/apps_review.png)
+![amostra](../Evidencias/top10reviews.png)
 
 ### 9. **Cálculos sobre o Dataset**
 
-Realizei alguns cálculos sobre o dataset, como a média de reviews, cálculo em valor e o cálculo em formato de lista, top 5 apps com mais reviews
+Copiei o df, tratei e converti a coluna 'Reviews' para números inteiros, e então ordenei para encontrar e exibir os top 10 aplicativos com mais reviews
+
+![amostra](../Evidencias/calculos.png)
+
 
 ### 10. **Gráficos de Análise Adicional**
 
-Gerei gráficos adicionais para os indicadores da etapa anterior, um gráfico de linhas e outro de ponto.
+Gerei gráficos adicionais para os indicadores da etapa anterior, um gráfico de linha e outro de ponto.
+
+No de linha, converto a coluna 'Reviews' para numérica e, em seguida, ploto os top 5 aplicativos por reviews, formatando o eixo Y para exibir os números de reviews de forma legível e sem notação científica.
+
+![amostra](../Evidencias/linhas_grafico.png)
+
+
+O de ponto, criei um gráfico para exibir o preço médio dos apps como um ponto centralizado, com uma linha horizontal e um rótulo de texto destacado para indicar seu valor. 
+
+![amostra](../Evidencias/ponto.png)
 
 ## Conclusão
 
