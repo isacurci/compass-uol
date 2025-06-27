@@ -1,0 +1,28 @@
+# Nome do arquivo: docker-compose.yml
+
+version: '3.8' 
+
+services:
+  # Serviço para a Etapa 1 (Limpeza de dados)
+  etl_process:
+    # Indica ao Docker Compose para construir a imagem a partir de um Dockerfile
+    build:
+      context: . 
+      dockerfile: dockerfiles/Dockerfile_etl # Caminho RELATIVO ao 'context: .'
+    # Mapeia volumes entre o host e o container para persistência de dados
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+
+  # Serviço para a Etapa 2 (Processamento de dados e geração de gráficos)
+  data_j8b:
+    # Constrói a imagem para este serviço
+    build:
+      context: . 
+      dockerfile: dockerfiles/Dockerfile_job # Caminho RELATIVO ao 'context: .'
+    # Define uma dependência: este serviço só iniciará após o 'etl_process' ter terminado com sucesso.
+    depends_on:
+      - etl_process
+    # Mapeia volumes para este serviço.
+    volumes:
+      - ./output:/app/output

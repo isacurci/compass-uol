@@ -1,0 +1,11 @@
+Q1:
+--- A artista que mais aparece e possui a maior média de faturamento bruto é: Taylor Swift
+
+Q2:
+--- A turnê de um ano com a maior média de faturamento bruto é 'The Eras Tour' (Artista: Taylor Swift, Média: $13928571.00)
+
+Q3:
+--- As 3 turnês com o show unitário mais lucrativo são:
+- Tour: The Eras Tour, Artista: Taylor Swift, Valor por Show: $13928571.43
+- Tour: Renaissance World Tour, Artista: Beyoncé, Valor por Show: $10353571.43
+- Tour: Reputation Stadium Tour, Artista: Taylor Swift, Valor por Show: $7600846.21

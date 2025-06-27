@@ -1,0 +1,22 @@
+# Usa a mesma imagem base Python
+FROM python:3.9-slim-buster
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Copia o arquivo de requisitos e instala as dependências.
+# O requirements.txt deve ter pandas, matplotlib e seaborn.
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia o script job.py para o diretório de trabalho do container.
+COPY scripts/job.py .
+
+# Copia a pasta 'output' que conterá o 'csv_limpo.csv' gerado pelo etl_process.
+COPY output/csv_limpo.csv output/
+
+# Cria o diretório 'output' dentro do container, onde os resultados (respostas.txt, Q4.png, Q5.png) serão salvos.
+RUN mkdir -p output
+
+# Comando que será executado quando o container for iniciado, executa o script job.py.
+CMD ["python", "job.py"]

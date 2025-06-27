@@ -1,0 +1,21 @@
+# Usa uma imagem base Python 3.9 slim 
+FROM python:3.9-slim-buster
+
+# Define o diretório de trabalho dentro do container.
+WORKDIR /app
+
+# Copia o arquivo de requisitos para o diretório de trabalho e instala as dependências.
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia o script etl_1.py para o diretório de trabalho do container.
+COPY scripts/etl_1.py .
+
+# Copia a pasta 'data' (com o CSV original) para dentro do container.
+COPY data/concert_tours_by_women.csv data/
+
+# Cria o diretório 'output' dentro do container, onde o csv_limpo.csv será salvo.
+RUN mkdir -p output
+
+# Comando que será executado quando o container for iniciado.
+CMD ["python", "etl_1.py"]
