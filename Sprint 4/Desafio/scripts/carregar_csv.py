@@ -2,7 +2,7 @@ import boto3
 import os
 
 # Cria uma sessão com o perfil do AWS CLI configurado
-session = boto3.Session(profile_name='mydev')
+session = boto3.Session(profile_name='teste')
 
 # Cria um cliente S3 usando as credenciais do perfil SSO
 s3 = session.client('s3')
