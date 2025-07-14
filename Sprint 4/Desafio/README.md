@@ -3,8 +3,9 @@
 ### Etapa 1. **Upload do Dataset para o Amazon S3**
 
 O dataset foi escolhido localmente e analisado para entender sua estrutura e possíveis questionamentos. Em seguida, foi criado um bucket na AWS S3 usando a biblioteca **boto3**. O arquivo `.csv` foi carregado diretamente do ambiente local para o bucket via script Python. Nessa etapa configurei o AWS CLI, via terminal com as senhas e tokens, região necessária, após isso, o carregamento do `.csv`.
+ Comecei fazendo por script python, segue abaixo como fiz:
 
-![evidência](../Evidencias/cce61c31-f6ad-4f6d-9d2b-7a2ce0694040.png)
+![evidência](../Evidencias/Screenshot_1.png)
 
 
 ### Etapa 2. **Análise e Manipulação de Dados com Pandas**
@@ -29,7 +30,7 @@ Essas operações permitiram responder às 3 perguntas de análise previamente d
 
 ### Etapa 3. **Salvamento dos Resultados no S3**
 
-Após a realização das análises e manipulações solicitadas, o(s) resultado(s) foram salvos em formato `.csv` e enviados para o mesmo bucket do S3, respeitando o formato de entrada. Todo o processo foi feito sem realizar o download do arquivo, acessando o S3.
+Após a realização das análises e manipulações solicitadas, o(s) resultado(s) foram salvos em formato `.csv` e enviados para o mesmo bucket do S3, respeitando o formato de entrada.
 
 ## Conclusão
 
