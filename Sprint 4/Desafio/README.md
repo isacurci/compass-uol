@@ -17,7 +17,7 @@ Foi feito um agrupamento por `Campus` com a soma total da coluna `Quantidade em 
 
 #### ✅ **2. Considerando que consumo alto é acima de 10.000 kWh, quais campi registraram consumo alto?**  
 > Tipo: Função condicional (`apply`)  
-Foi criada uma nova coluna chamada `Consumo Alto`, marcando como "Sim" quando o valor excedia 10.000 kWh.
+Foi criada uma nova coluna chamada `Consumo Alto`, marcando como "Sim" quando o valor excedia 100.000 kWh.
 
 #### ✅ **3. Qual foi o gasto energético por campus na cidade de Uberlândia no mês de Julho?**  
 > Tipo: Filtro com dois operadores lógicos  
@@ -26,7 +26,6 @@ Foi aplicado um filtro com múltiplas condições: `Cidade == Uberlândia` **e**
 
 Essas operações permitiram responder às 3 perguntas de análise previamente definidas.
 
-![evidência](../Evidencias/21391573-b775-4100-b642-ae0b6df32e40.png)
 
 ### Etapa 3. **Salvamento dos Resultados no S3**
 
