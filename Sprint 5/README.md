@@ -29,27 +29,17 @@ Com o material sobre consegui aprofundar meus conhecimentos em Apache Hadoop e A
 Durante a sprint, realizei atividades práticas que envolveram:
 
 ### **1. Manipulação e Processamento de Dados com PySpark**
-- Criação de DataFrames e RDDs
-- Aplicação de transformações e ações
-- Otimização de tarefas utilizando DAG
-- Análise de dados em larga escala
+
 
 ### **2. Integração com Serviços AWS**
-- Execução de workloads Spark no Amazon EMR
-- Consultas serverless com Athena em dados armazenados no S3
-- Exploração de soluções serverless para análise de dados
 
 ---
 
 ## 📸 Evidências da Sprint
 
-- Prints e registros das execuções de notebooks PySpark
-- Resultados de consultas no Athena
-- Configuração e execução de clusters EMR
-- Exercícios práticos realizados nos cursos
 
 ---
 
 ## 📝 Conclusão
 
-Esta sprint foi essencial para consolidar conhecimentos em processamento distribuído, arquitetura de clusters e análise de dados em larga escala. O estudo aprofundado de PySpark, aliado à prática com serviços AWS, permitiu compreender as diferenças entre Hadoop e Spark, o funcionamento do DAG, e as vantagens do modelo serverless. Os cursos e leituras realizados prepararam para desafios futuros em projetos de Big Data e Analytics, ampliando a capacidade de trabalhar com grandes volumes de dados de forma eficiente e escalável.
+Esta sprint foi essencial para consolidar conhecimentos em processamento distribuído, arquitetura de clusters e análise de dados em larga escala. O estudo aprofundado de PySpark, aliado à prática com serviços AWS, permitiu compreender as diferenças entre Hadoop e Spark, o funcionamento do DAG, e as vantagens do modelo serverless. Os cursos e leituras realizados prepararam para futuros projetos de Big Data e Analytics, ampliando a capacidade de trabalhar com grandes volumes de dados de mais escalável e eficiente.
