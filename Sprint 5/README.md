@@ -28,16 +28,19 @@ Com o material sobre consegui aprofundar meus conhecimentos em Apache Hadoop e A
 
 Durante a sprint, realizei atividades práticas que envolveram:
 
-### **1. Manipulação e Processamento de Dados com PySpark**
+#### 1. Manipulação e Processamento de Dados com PySpark
 
 
-### **2. Integração com Serviços AWS**
+#### 2. Integração com Serviços AWS
 
 ---
 
 ## 📸 Evidências da Sprint
 
+As evidencias dos Exercícios estão disponíveis em: 
 
+1. [Contagem Palavras](./Exercicios/Evidencias_Contagem_Palavras)  
+2. [TMDB](./Exercicios/Evidencias_TMDB) 
 ---
 
 ## 📝 Conclusão
