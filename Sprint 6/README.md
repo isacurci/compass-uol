@@ -6,15 +6,9 @@ Nesta sprint, avancei no desenvolvimento de habilidades em processamento de dado
 ## 🎓 Cursos Realizados
 
 
-### **Fundamentals of Analytics - 2**
+### *Fundamentals of Analytics - 2*
 
-Esse curso 
-
-
-### **AWS GLUE**
-
-
-
+### *AWS GLUE*
 
 ## 🚀 Exercicios
 
@@ -37,10 +31,10 @@ Esse curso
 
 ## 🛠️ Principais Aprendizados
 
+- Resolução de problemas: - Ajuste de variáveis de ambiente (`JAVA_HOME`, `PATH`) para garantir o funcionamento do Spark localmente.
 - Prática com geração e manipulação de grandes volumes de dados em Python.
 - Configuração do ambiente Spark local no Windows, incluindo integração com o Python e o Java.
 - Uso do PySpark para leitura, transformação e análise inicial de dados em formato texto.
-- Continuidade no desenvolvimento de pipelines de dados, conectando etapas de ingestão, processamento e análise.
 
 ---
 
@@ -54,4 +48,4 @@ Esse curso
 
 ## 👩‍💻 Conclusão
 
-Esta sprint foi fundamental para consolidar conhecimentos em processamento distribuído e manipulação de dados em larga escala, além de reforçar a importância de um ambiente bem configurado para o
+Essa sprint foi fundamental para consolidar meus conhecimentos em processamento de dados com Apache Spark e reforçar a integração com serviços como o AWS Glue. A prática com geração e manipulação de dados me permitiu compreender melhor os processos de ETL e foram fundamentais para o desenvolvimento do desafio da Sprint.

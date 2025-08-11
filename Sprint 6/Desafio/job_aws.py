@@ -20,7 +20,7 @@ trusted_path = "s3://data-lake-isa1/Trusted/Movies/CSV/"
 database_name = "movies_database"
 table_name = "movies_csv_trusted"
 
-# 1. Ler TODOS os CSVs da Raw Zone (pasta) com separador "|"
+# 1. Ler CSV da Raw Zone (pasta) com separador "|"
 df = spark.read.option("header", True).option("delimiter", "|").csv(raw_path)
 
 # 2. Limpeza e transformação
