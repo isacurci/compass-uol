@@ -22,10 +22,11 @@ Com base na exploração dos dados, as seguintes questões serão respondidas:
     >Filtro: notaMedia >= 7.5
     >Análise: Ver tendência temporal e quais títulos se destacam em cada década.
 
-2. **Quais artistas (atores/atrizes) aparecem com maior frequência em filmes de drama?**
-    >Base: genero = Drama
-    >Agrupamento: contar a ocorrência de nomeArtista para filmes de drama.
-
+2. **Como a duração dos filmes de drama evoluiu ao longo do tempo e impacta na avaliação??**
+    >Base: genero = 'Drama' 
+    >Análise:Comparar tempo_minutos por década (ano_lancamento)
+    Correlação: Filmes mais longos têm notas melhores ou piores?/ estão ficando mais longos ou mais curtos com o tempoo?
+ 
 3. **Existe relação entre a nota média e o número de votos dos filmes de drama?**
     >Análise de correlação: Filmes com muitos votos tendem a ter nota mais alta ou mais baixa?
 
