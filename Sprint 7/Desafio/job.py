@@ -76,10 +76,8 @@ def normalize_columns(df):
 
 # --- Desduplica os registros do filme ---
 def deduplicate_movies(df):
-    """
-    Remove registros duplicados com base no ID do filme, mantendo o mais recente.
-    Esta é a parte crucial para resolver o problema de duplicação.
-    """
+    # --- Remover duplicatas mantendo somente o mais recente
+
     print(f"🔍 Registros antes da desduplicação: {df.count()}")
     
     # Pegando mais recente

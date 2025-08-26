@@ -11,36 +11,42 @@ Neste desafio, o objetivo foi implementar a camada Refined do data lake, aplican
 ### 1. **Modelagem de Dados da Camada Refined**
 - Desenvolvi o modelo dimensional seguindo o padrão Star Schema com:
  - **Tabela Fato:** fact_movies (contendo métricas e chaves estrangeiras)
- - **Tabelas Dimensão:** dim_artists, dim_companies, dim_countries, dim_time
+ - **Tabelas Dimensão:** dim_artists, dim_companies, dim_time
 - Defini os tipos de dados adequados para cada campo baseado na estrutura real dos dados
-- Criei o diagrama ERD documentando os relacionamentos entre as tabelas
+- Criei o diagrama ERD documentando os relacionamentos entre as tabelas, baseado nas questões desenvolvidas na Sprint 5.
+
+Tranquilo de desenvolvimento, por já ter realizado em sprints anteriores.
+
+![evidência](modelo-der.png)
 
 ### 2. **Desenvolvimento dos Jobs AWS Glue**
 - **Configuração do Job:**
 - Seguindo o lab de glue - nenhum impedimento aqui
+- Única maior complexidade aqui foi a lógica da implementação, mas com o conhecimento de Spark, sprints passadas, foi possivél cumprir todos requisitos.
+
+![evidência](../Evidencias/Screenshot_13.png)
  
 - **Processamento implementado:**
  - Leitura dos dados da camada Trusted Zone
  - Transformação seguindo o modelo dimensional definido
- - Aplicação de regras de limpeza e estruturação
+ - Aplicação de regras de limpeza e estruturação (normalização de dados e filtragens)
 
-### 3. **Criação das Tabelas no Data Catalog**
-- Configurei as tabelas no AWS Glue Data Catalog seguindo a modelagem dimensional
-- Implementei particionamento adequado para melhor performance nas consultas
-- Estruturei os dados no formato PARQUET para otimização de storage e consultas
+ ![evidência](../Evidencias/Screenshot_14.png)
 
-### 4. **Processamento com Apache Spark**
+### 3. **Processamento com Apache Spark**
 - Utilizei PySpark para transformar os dados da camada Trusted para Refined
 - Implementei job com origem nos dados da Trusted Zone e destino na Refined Zone
 - Apliquei todas as transformações necessárias seguindo os princípios de modelagem multidimensional
 
-### 5. **Validação dos Casos de Uso Analíticos**
-Preparei a estrutura para responder às seguintes análises:
-- Filmes de drama mais bem avaliados ao longo das décadas
-- Evolução da duração dos filmes de drama ao longo do tempo
-- Relação entre nota média e número de votos dos filmes
-- Identificação dos filmes de drama mais longos e suas avaliações
+Exemplo no Athena:
 
+ ![evidência](../Evidencias/Screenshot_15.png)
+ ![evidência](../Evidencias/Screenshot_16.png)
+
+### 3. **Criação do Crawler e visualização no Athena**
+- Criei um banco de dados, cataloguei e integrei rodando o crawler, criando as tabelas fato e dimensões no banco, seguindo a modelagem dimensional 
+
+ ![evidência](../Evidencias/Screenshot_6.png)
 ---
 
 ## Estrutura dos Arquivos
