@@ -6,7 +6,7 @@ Nesta sprint, avancei no desenvolvimento de habilidades em **Data Warehousing** 
 
 ## 🎓 Cursos Realizados
 
-### *Modelagem de Dados para Data Warehouse
+### **Modelagem de Dados para Data Warehouse**
 
 - Fundamentos teóricos sobre Data Warehousing, seus objetivos principais e fatores críticos para implementação bem-sucedida.
 - Compreensão das diferenças fundamentais entre sistemas transacionais (OLTP) e analíticos (OLAP), incluindo aspectos de performance e casos de uso.
@@ -18,9 +18,8 @@ Nesta sprint, avancei no desenvolvimento de habilidades em **Data Warehousing** 
 - Implementação prática do modelo Star Schema para análises multidimensionais eficientes.
 
 ### *Amazon Q Developer*
-- **Duração**: Curso completo
-- Utilização da ferramenta de IA da Amazon para desenvolvimento assistido, otimização de código e automação de tarefas de desenvolvimento.
 
+- Utilização da ferramenta de IA da Amazon para desenvolvimento assistido, otimização de código e automação de tarefas de desenvolvimento.
 ---
 
 ## 🚀 O que foi desenvolvidos
@@ -30,22 +29,11 @@ Nesta sprint, avancei no desenvolvimento de habilidades em **Data Warehousing** 
 
 ### 2. **Implementação de Crawlers**
 - Criação de crawlers para descoberta automática de esquemas de dados
-- Configuração de processos de captura de metadados
 
 ### 3. **Modelagem Dimensional**
 - Refinamento do modelo Star Schema implementado nas sprints anteriores
 - Aplicação de conceitos de dimensões que mudam lentamente (SCD)
 - Otimização de consultas OLAP e operações multidimensionais
-
----
-
-## 🛠️ Principais Aprendizados
-
-- **Modelagem Dimensional**: Consolidação dos conceitos de Star Schema, tabelas fato e dimensões
-- **Operações OLAP**: Domínio das técnicas de Slice, Dice, Drill-down e Roll-up para análise multidimensional
-- **Automação de Processos**: Criação de jobs ETL e crawlers para pipelines de dados robustos
-- **Amazon Q Developer**: Utilização de IA para otimização do desenvolvimento e resolução de problemas
-- **Performance em DW**: Compreensão das diferenças entre OLTP e OLAP e suas implicações na arquitetura
 
 ---
 
