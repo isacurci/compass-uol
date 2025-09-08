@@ -27,12 +27,11 @@ Com base na exploração dos dados, as seguintes questões serão respondidas:
     >Análise:Comparar tempo_minutos por década (ano_lancamento)
     Correlação: Filmes mais longos têm notas melhores ou piores?/ estão ficando mais longos ou mais curtos com o tempoo?
  
-3. **Existe relação entre a nota média e o número de votos dos filmes de drama?**
-    >Análise de correlação: Filmes com muitos votos tendem a ter nota mais alta ou mais baixa?
+3. **Existe relação entre a nota média e a duração dos filmes de drama?**
+    >Análise de correlação: Filmes mais longos tendem a ter nota mais alta ou mais baixa?
 
-4. **Quais são os filmes de drama mais longos (tempo em minutos)?**
-    >Base: tempoMinutos
-    >Análise: Identificar filmes dramáticos com maior duração e comparar suas notas.
+4. **TOP 5 Artistas em Filmes de Drama**
+    >Análise: Identificar os 5 artistas com mais títulos
 ---
 
 ## Etapa 1: Coleta e Exploração Inicial dos Dados
